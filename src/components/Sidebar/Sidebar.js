@@ -61,7 +61,7 @@ function Sidebar(props) {
           </div>
         </a>
         <a
-          
+          href="a"
           className="simple-text logo-normal"
         >
            WEB 4.0

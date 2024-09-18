@@ -7,11 +7,16 @@ import gurrolaAntuna from "assets/img/GurrolaAntuna.jpg";
 import herreraOrtiz from "assets/img/Herrera_Ortiz.jpg";
 import manzanilla from "assets/img/manzanilla.jpg";
 import marlenne from "assets/img/Marlenne.png";
-import ontiveros from "assets/img/Ontiveros.jpeg";
+import Leon_Quintana from "assets/img/Leon_Quintana.png"
+import Ontiveros from "assets/img/ontiveros.png";
 import Sanchez_Daniel from "assets/img/Sanchez_Daniel.jpeg";
 import soto_cervantes from "assets/img/soto cervantes.jpg";
-// import SotoGraciano from "asses/img/SotoGraciano.jpg"
+import SotoGraciano from "assets/img/SotoGraciano.jpg"
 import vallejo from "assets/img/vallejo.jpg";
+import luna from "assets/img/luna.jpeg";
+import reyna from "assets/img/reyna.jpg";
+import zaldivar from "assets/img/zaldivar.jpeg";
+
 
 
 // Componente reutilizable para tarjetas de alumnos
@@ -60,11 +65,16 @@ function Dashboard() {
         <AlumnoCard categoria="ALUMNO 7" nombre="HERRERA ORTIZ" imagen={herreraOrtiz} />
         <AlumnoCard categoria="ALUMNO 8" nombre="MANZANILLA" imagen={manzanilla} />
         <AlumnoCard categoria="ALUMNO 9" nombre="MARLENNE" imagen={marlenne} />
-        <AlumnoCard categoria="ALUMNO 10" nombre="ONTIVEROS" imagen={ontiveros} />
+        <AlumnoCard categoria="ALUMNO 10" nombre="ONTIVEROS" imagen={Ontiveros} />
         <AlumnoCard categoria="ALUMNO 11" nombre="SANCHES" imagen={Sanchez_Daniel} />
         <AlumnoCard categoria="ALUMNO 12" nombre="SOTO" imagen={soto_cervantes} />
-        {/* <AlumnoCard categoria="ALUMNO 13" nombre="SOTO" imagen={SotoGraciano} /> */}
+        <AlumnoCard categoria="ALUMNO 13" nombre="SOTO GRACIANO" imagen={SotoGraciano} />
         <AlumnoCard categoria="ALUMNO 14" nombre="VALLEJO" imagen={vallejo} />
+        <AlumnoCard categoria="ALUMNO 15" nombre="Leon_Quintana" imagen={Leon_Quintana} />
+        <AlumnoCard categoria="ALUMNO 16" nombre="LUNA" imagen={luna} />
+        <AlumnoCard categoria="ALUMNO 17" nombre="REYNA" imagen={reyna} />
+        <AlumnoCard categoria="ALUMNO 18" nombre="ZAlDIVAR" imagen={zaldivar} />
+        
       </Row>
     </div>
   );
